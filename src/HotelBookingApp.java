@@ -1,6 +1,3 @@
-<<<<<<< Updated upstream
-// UC1: Application Entry & Welcome Message
-=======
 // UC4: Room Search & Availability Check
 
 import java.util.HashMap;
@@ -59,19 +56,11 @@ class RoomInventory {
         return inventory.getOrDefault(roomType, 0);
     }
 }
->>>>>>> Stashed changes
 
 public class HotelBookingApp {
 
     public static void main(String[] args) {
 
-<<<<<<< Updated upstream
-        System.out.println("=================================");
-        System.out.println("Welcome to Book My Stay");
-        System.out.println("Hotel Booking System v1.0");
-        System.out.println("=================================");
-
-=======
         System.out.println("Book My Stay - Hotel Booking System v4.1");
         System.out.println("---------------------------------------");
 
@@ -96,6 +85,5 @@ public class HotelBookingApp {
                 System.out.println();
             }
         }
->>>>>>> Stashed changes
     }
 }
